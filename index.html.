@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой сайт</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: #101114;
+    }
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #303139;
+    }
+    main {
+      max-width: 850px;
+      margin: 100px auto;
+      padding: 24px;
+      text-align: center;
+    }
+    h1 { font-size: clamp(36px, 7vw, 64px); }
+    p { color: #b8bac5; line-height: 1.7; }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      color: #101114;
+      background: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>MY WEBSITE</header>
+  <main>
+    <h1>Добро пожаловать</h1>
+    <p>Это мой собственный сайт. Скоро здесь появится больше возможностей.</p>
+    <a href="mailto:hello@example.com">Связаться с нами</a>
+  </main>
+</body>
+</html>
